@@ -1,6 +1,7 @@
 use std::{fs,io};
 
 
+
 fn main() {
     std::process::exit(real_main())
 }
@@ -16,7 +17,7 @@ fn real_main() -> i32{
    let mut archive = zip::ZipArchive::new(file).unwrap();
    for i in 0..archive.len(){
     let mut file = archive.by_index(i).unwrap();
-    let output = match file.enclosed_name(){
+    let outpath = match file.enclosed_name(){
         Some(path)=>path.to_owned(),
         None=>continue,
     };
@@ -27,8 +28,8 @@ fn real_main() -> i32{
         }
     }
     if(*file.name()).ends_with('/'){
-        println!("File {} extracted to \"{}"\ , i, outpath.display());
-        fs::create_dir_all(&output).unwrap();
+        println!("File {} extracted to \"{}\"" , i, outpath.display());
+        fs::create_dir_all(&outpath).unwrap();
     }else{
         println!(
             "File {} extracted to \"{}\" ({} bytes)",
@@ -36,7 +37,7 @@ fn real_main() -> i32{
             outpath.display(),
             file.size()
         );
-        if let Some(p) = output.parent(){
+        if let Some(p) = outpath.parent(){
             if !p.exists(){
                 fs::create_dir_all(&p).unwrap();
             }
@@ -52,4 +53,5 @@ fn real_main() -> i32{
         }
     }
    }
+   0
 }
