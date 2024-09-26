@@ -1,0 +1,11 @@
+C:\Users\Kunal\Desktop\50 rust\extract_links\target\debug\deps\liblibc-798ea845b67d5910.rmeta: C:\Users\Kunal\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.159\src/lib.rs C:\Users\Kunal\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.159\src\macros.rs C:\Users\Kunal\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.159\src\fixed_width_ints.rs C:\Users\Kunal\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.159\src\windows\mod.rs C:\Users\Kunal\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.159\src\windows\msvc\mod.rs
+
+C:\Users\Kunal\Desktop\50 rust\extract_links\target\debug\deps\liblibc-798ea845b67d5910.rlib: C:\Users\Kunal\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.159\src/lib.rs C:\Users\Kunal\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.159\src\macros.rs C:\Users\Kunal\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.159\src\fixed_width_ints.rs C:\Users\Kunal\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.159\src\windows\mod.rs C:\Users\Kunal\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.159\src\windows\msvc\mod.rs
+
+C:\Users\Kunal\Desktop\50 rust\extract_links\target\debug\deps\libc-798ea845b67d5910.d: C:\Users\Kunal\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.159\src/lib.rs C:\Users\Kunal\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.159\src\macros.rs C:\Users\Kunal\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.159\src\fixed_width_ints.rs C:\Users\Kunal\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.159\src\windows\mod.rs C:\Users\Kunal\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.159\src\windows\msvc\mod.rs
+
+C:\Users\Kunal\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.159\src/lib.rs:
+C:\Users\Kunal\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.159\src\macros.rs:
+C:\Users\Kunal\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.159\src\fixed_width_ints.rs:
+C:\Users\Kunal\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.159\src\windows\mod.rs:
+C:\Users\Kunal\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.159\src\windows\msvc\mod.rs:
